@@ -102,7 +102,12 @@ Changes to be committed:
         modified:   README.md
         modified:   main.go
 ```
-4. `git push -u origin master`
+4. `git commit -m "add new function IsMoreThanFive"`
+```
+[master 479f4fb] add new function IsMoreThanFive
+ 2 files changed, 83 insertions(+), 1 deletion(-)
+```
+5. `git push -u origin master`
 ```
 Enumerating objects: 7, done.
 Counting objects: 100% (7/7), done.
