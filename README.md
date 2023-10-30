@@ -7,6 +7,8 @@ Code:
 1. Programming Language: Go
 2. Database: Mysql
 3. API: REST
+## Tutorial Run Go
+1. `go run main.go`
 
 ## Tutorial Git Transfer
 ### First Git Project
