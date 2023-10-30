@@ -78,4 +78,39 @@ To https://github.com/Aldoyyyy/hello.git
 branch 'master' set up to track 'origin/master'.
 ```
 ### Update Git Project
-1.   
+1. `git status`
+```
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   README.md
+        modified:   main.go
+
+no changes added to commit (use "git add" and/or "git commit -a")
+```
+2. `git add .`
+3. `git status`
+```
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   README.md
+        modified:   main.go
+```
+4. `git push -u origin master`
+```
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 1.41 KiB | 1.41 MiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/Aldoyyyy/hello.git
+   98d86a9..479f4fb  master -> master
+branch 'master' set up to track 'origin/master'.
+```
