@@ -1,7 +1,13 @@
 # hello
 Finding Reference:
 1. Development method: SCRUM.
+```
+metodologi yang termasuk dalam agile software development. Scrum dinilai dapat menghasilkan kualitas perangkat lunak yang baik sesuai dengan keinginan pengguna, dapat digunakan dalam proyek besar maupun kecil, dan mudah untuk mengadopsi perubahan.
+```
 2. Monolithic VS Microservice.
+```
+Monolitik adalah sebuah arsitektur aplikasi secara kesatuan atau tunggal, maka microservices adalah sebaliknya. Microservices terbagi menjadi unit pecahan yang lebih kecil dan spesifik.
+```
 
 Code:
 1. Programming Language: Go
