@@ -1,6 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"encoding/json"
+	"fmt"
+)
 
 func main() {
 	fmt.Println("Hello, World!")
@@ -34,6 +37,16 @@ func main() {
 
 	// function print map
 	printMaps()
+
+	// function print struct to json
+	carFord := Car{
+		Brand: "Ford",
+		Model: "Mustang",
+		Year: 1964,
+		IsAutomatic: false,
+		Spareparts: []string{"wheel", "spion"},
+	}
+	printStructToJson(carFord)
 
 }
 
@@ -168,4 +181,22 @@ func printMaps() {
 	// Jika mau menghapus dalah satu key maka menggunakan delete(nama map, key sesuai data title)
 	delete(c, 3)
 	fmt.Printf("c\t%v\n", c)
+}
+
+// Cara tambah tag json (ctrs+Shift+P) pilih Go: Add Tags To Struct Fields
+type Car struct {
+	Brand       string   `json:"brand,omitempty"`
+	Model       string   `json:"model,omitempty"`
+	Year        int64    `json:"year,omitempty"`
+	IsAutomatic bool     `json:"is_automatic,omitempty"`
+	Spareparts  []string `json:"spareparts,omitempty"`
+}
+
+func printStructToJson(car Car) {
+	result,err:=json.Marshal(car)
+	// Ini adalah cara handle error pada golang
+	if err!=nil {
+		println(err.Error())
+	}
+	fmt.Println(string(result))
 }

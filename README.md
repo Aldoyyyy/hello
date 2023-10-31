@@ -14,6 +14,18 @@ Array Adalah : Pengertian, Kegunaan, dan Jenisnya – Apa itu array? Pastinya ka
 
 Map adalah tipe data asosiatif yang ada di Go, berbentuk key-value pair. Untuk setiap data (atau value) yang disimpan, disiapkan juga key-nya. Key harus unik, karena digunakan sebagai penanda (atau identifier) untuk pengaksesan value yang bersangkutan.
 ```
+4. Json
+```
+Json adalah sebuah format untuk berbagi data. Seperti dapat kita lihat dari namanya, JSON diturunkan dari bahasa pemrograman javaScript, akan tetapi format ini tersedia bagi banyak bahasa lain termasuk Python, Ruby, PHP, dan Java. JSON biasanya dilafalkan seperti nama "Jason.
+Contoh :
+{
+  "first_name" : "Sammy",
+  "last_name" : "Shark",
+  "location" : "Ocean",
+  "online" : true,
+  "followers" : 987 
+}
+```
 
 Code:
 1. Programming Language: Go
