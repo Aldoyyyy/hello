@@ -8,6 +8,12 @@ metodologi yang termasuk dalam agile software development. Scrum dinilai dapat m
 ```
 Monolitik adalah sebuah arsitektur aplikasi secara kesatuan atau tunggal, maka microservices adalah sebaliknya. Microservices terbagi menjadi unit pecahan yang lebih kecil dan spesifik.
 ```
+3. Array vs Map
+```
+Array Adalah : Pengertian, Kegunaan, dan Jenisnya – Apa itu array? Pastinya kata Array tidak asing didengar pada bidang pemprograman. Dengan array akan memudahkan dalam penyimpanan data banyak yang sudah dikelompokkan. Array terdapat dalam Phyton, C++, PHP, Java dan bahasa pemrograman lainnya.
+
+Map adalah tipe data asosiatif yang ada di Go, berbentuk key-value pair. Untuk setiap data (atau value) yang disimpan, disiapkan juga key-nya. Key harus unik, karena digunakan sebagai penanda (atau identifier) untuk pengaksesan value yang bersangkutan.
+```
 
 Code:
 1. Programming Language: Go
@@ -126,4 +132,16 @@ Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
 To https://github.com/Aldoyyyy/hello.git
    98d86a9..479f4fb  master -> master
 branch 'master' set up to track 'origin/master'.
+```
+
+## Tutorial git clone (copy project github)
+1. `git clone https://github.com/Aldoyyyy/hello.git`
+```
+Cloning into 'hello'...
+remote: Enumerating objects: 22, done.
+remote: Counting objects: 100% (22/22), done.
+remote: Compressing objects: 100% (17/17), done.
+remote: Total 22 (delta 7), reused 19 (delta 4), pack-reused 0
+Receiving objects: 100% (22/22), 4.07 KiB | 4.07 MiB/s, done.
+Resolving deltas: 100% (7/7), done.
 ```
